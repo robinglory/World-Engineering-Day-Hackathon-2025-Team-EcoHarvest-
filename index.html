@@ -192,7 +192,8 @@
     <script>
        const apiKey = '9c5b06314e5f087305407c70127ab986';
 const city = 'Yangon';
-const weatherUrl = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+// https://cors-anywhere.herokuapp.com/ Add this if the api is not working
+const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 async function fetchWeather() {
     try {

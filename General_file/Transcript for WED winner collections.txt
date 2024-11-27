@@ -1,0 +1,1030 @@
+Transcript for WED Hackathon 1st Prize Winner - Somiant 2024
+
+
+0:00
+hemos escuchado que el cambio climático
+0:02
+cada vez se agrava provocando
+0:04
+derretimiento de Los cascos glaciares
+0:06
+del planeta resultando en un incremento
+0:09
+en el nivel del mar veranos más
+0:11
+calientes inviernos más fríos lluvias
+0:14
+intensas o sequías prolongadas el
+0:16
+fenómeno del niño También conocido como
+0:18
+Enzo es un evento climático que se
+0:21
+genera por el calentamiento del océano
+0:23
+Pacífico el cual limita en las costas de
+0:26
+nuestro país Ecuador el lzo tuvo mayor
+0:29
+ación en nuestro perfil costero en
+0:33
+1997-1998 donde hubo una pérdida de
+0:37
+2882 millones de dólares actualmente se
+0:40
+estima que para este año 2023 y 2024 el
+0:43
+fenómeno será más
+0:45
+fuerte sin embargo estas pérdidas se
+0:48
+Pueden disminuir si la comunidad conoce
+0:51
+sobre los riesgos que conlleva el Enzo Y
+0:54
+si les dijera que no estamos indefensos
+0:57
+ante este golpe de la naturaleza
+1:00
+Hoy les presentamos una solución
+1:02
+innovadora que no solo enfrenta sino que
+1:05
+anticipa mitiga los impactos del niño y
+1:08
+nos enseña Cómo actuar ante este
+1:10
+desastre natural el niño es un fenómeno
+1:13
+que afecta significativamente el clima
+1:15
+en varias partes del mundo y ocurre cada
+1:17
+dos o 7 años con una intensidad variada
+1:20
+afectando drásticamente la temperatura
+1:22
+hasta 4 gr cados más sobre la normal
+1:25
+estos cambios en la temperatura del agua
+1:27
+también afectan los denominados vientos
+1:30
+alizos los cuales en condiciones
+1:31
+normales son los encargados de
+1:33
+transportar el agua caliente frente a
+1:35
+las costas de nuestro país hacia las
+1:37
+costas de Australia y Japón al oeste en
+1:39
+épocas del niño ocurre una disminución
+1:42
+de los mismos y en algunos casos en
+1:44
+cambios completos de la dirección de
+1:46
+estos provocando intensos periodos de
+1:48
+sequía y precipitaciones resultando en
+1:51
+inundaciones y en algunos casos hasta
+1:53
+incendios en Ecuador la falta de datos o
+1:57
+la carencia de información obstaculiza
+1:59
+nuestra capacidad de respuesta imaginen
+2:02
+la capacidad de anticipar de poder ver
+2:04
+en tiempo real el desarrollo del
+2:06
+fenómeno del niño en todas las
+2:08
+provincias del Ecuador Esto no es solo
+2:11
+una posibilidad sino la esencia de
+2:12
+nuestra solución un software de
+2:15
+monitoreo en tiempo real que use datos
+2:17
+satelitales para proporcionar
+2:19
+información y ver la evolución del
+2:21
+desarrollo del fenómeno del niño en el
+2:23
+97 y 98 muchas de las comunidades
+2:26
+costeras quedaron destruidas por ejemplo
+2:28
+en la Península de Santa Elena en la
+2:30
+libertad el malecón quedó arrasado las
+2:32
+casas en manglar alto derribadas y el
+2:35
+muro de contención en montañita tuvo que
+2:37
+ser reconstruido al sur del país nos
+2:39
+encontramos en Santa Rosa donde el río
+2:41
+por el que pasa esta ciudad se desbordó
+2:43
+este panorama es muy similar a las
+2:45
+comunidades que viven en la provincia de
+2:47
+los ríos provincia llena de estos
+2:49
+afluentes pluviales y en los últimos
+2:51
+años al norte del país en esmeraldas
+2:53
+hemos venido viendo estos eventos de
+2:54
+inundación múltiples veces hoy el clima
+2:57
+No es el mismo de hace 25 años reconocer
+3:00
+los lugares más susceptibles nos ayudará
+3:02
+a que este evento deje de ser una
+3:04
+tragedia el software propuesto a Más
+3:07
+allá de ser una simple herramienta de
+3:08
+observación se trata de una red de
+3:10
+inteligencia climática diseñada para ser
+3:13
+accesible para todos el monitoreo en
+3:15
+tiempo real utiliza algoritmos para
+3:17
+analizar patrones climáticos previendo
+3:19
+posibles escenarios y sus impactos esto
+3:22
+significa que no solo reaccionamos sino
+3:24
+que anticipamos marcando la diferencia
+3:26
+en la preparación ante el fenómeno del
+3:28
+niño
+3:30
+una de las funcionalidades claves es la
+3:32
+capacidad de segmentar imágenes
+3:33
+permitiendo a los usuarios visualizar El
+3:35
+Progreso del fenómeno en cada provincia
+3:38
+ecuatoriana este enfoque basado en
+3:40
+imágenes ofrece una comprensión más
+3:42
+completa y accesible para todos los
+3:44
+usuarios esto permite acceder a la
+3:46
+información en cualquier momento y lugar
+3:48
+Además del monitoreo continuo el
+3:50
+software enviará notificaciones y
+3:52
+alertas a los usuarios sobre cambios
+3:53
+significativos garantizando una
+3:55
+respuesta inmediata y eficiente estas
+3:58
+funcionalidades no solo con conviertan a
+4:00
+nuestro software en una herramienta de
+4:01
+observación sino en un Aliado esencial
+4:04
+para la toma de decisiones informadas
+4:06
+implementar esta iniciativa no solo
+4:09
+significa mitigar los impactos que el
+4:10
+niño puede llegar a tener sino también
+4:12
+est dar un paso adelante en la
+4:14
+construcción de un futuro más resiliente
+4:16
+la capacidad de toma de decisiones
+4:18
+informadas y responder de manera rápida
+4:21
+marca la diferencia en la protección de
+4:23
+nuestras comunidades que son afectadas
+4:25
+de diferente manera y la prevención de
+4:28
+nuestro entorno presentamos esta
+4:30
+iniciativa siendo conscientes de que
+4:32
+somos arquitectos de nuestra resilencia
+4:34
+y este software es la herramienta que
+4:37
+nos permite construir eh cimientos
+4:39
+sólidos que nos permitirán enfrentar a
+4:41
+diferentes desafíos climáticos que se
+4:43
+nos avecinan el cambio climático no es
+4:46
+solo una amenaza es una realidad
+4:47
+ineludible que necesita de nuestra
+4:49
+atención y acción inmediata juntos
+4:52
+podemos ser Los Guardianes de nuestro
+4:53
+entorno protegiendo nuestra tierra para
+4:55
+las generaciones
+4:58
+venideras i
+
+
+Transcript for Team Sponge - 1st place World Engineering Day Hackathon 2023
+
+
+Search in video
+0:00
+foreign
+0:04
+Island noise pollution greenhouse gas
+0:08
+emissions water pollution and wet Road
+0:12
+accidents remain threats in urban and
+0:14
+tribing cities but what can Engineers do
+0:17
+to improve the city design in
+0:19
+infrastructure for urban centers to
+0:21
+become Dynamic and Equitable for people
+0:23
+to live and Thrive the world has nearly
+0:26
+40 million miles of roads and is
+0:28
+projected to increase in the coming
+0:29
+years how can we move towards a
+0:32
+sustainable plan for the future of roads
+0:34
+and the health of our planet the
+0:36
+solution is here
+0:38
+our team proposes sponge a structural
+0:42
+weight previous concrete for Road
+0:43
+application a solution that mainly
+0:45
+addresses sdg3 food health and
+0:48
+well-being but can also contribute to
+0:51
+sdg6 sdg 12 sdg13 sdg9 and sdg 11. urban
+0:58
+heat island or uhi compromises human
+1:00
+health by contributing to General
+1:02
+discomfort respiratory difficulties and
+1:05
+heat relate and mortality 56 of the
+1:08
+world's population live in cities and
+1:10
+are at risk of uhi is
+1:14
+[Music]
+1:17
+previous pavement contains large
+1:19
+connected pores allowing water to drain
+1:21
+and evaporate that reduce pavement
+1:23
+surface and air temperature on the other
+1:25
+hand our current road contributes to
+1:27
+water stress and affects 2.3 billion of
+1:30
+people around the world but our solution
+1:32
+sponge will allow groundwater recharge
+1:35
+as it is inspired by the biomimicry
+1:37
+approach mimicking the ability of
+1:38
+natural soil to infiltrate water and by
+1:41
+remediation that can reduce water runoff
+1:43
+and the Cobalt and dominance and body
+1:45
+parts from water the solution doesn't
+1:47
+end here Manila has one of the worst
+1:49
+noise levels in the sea level there is
+1:52
+pollution which drives hearing loss and
+1:53
+hypersensitivity to sound also cause
+1:55
+cardiovascular disease seed disturbances
+1:57
+and mental health problems but sponge
+2:00
+can help address this problem through
+2:01
+its excellent acoustic property and
+2:03
+noise absorption up to 50 to 60 which is
+2:06
+made possible through its large number
+2:08
+of pores data also shows that where
+2:10
+pavement causes seventy percent of
+2:12
+weather related car accidents but the
+2:14
+use of service payments can reduce them
+2:16
+by 80 without all these great advantages
+2:18
+why is the technology has little to no
+2:21
+obligation in many countries including
+2:22
+the Philippines the main reason is due
+2:25
+to its low mechanical properties this is
+2:28
+where our Innovation comes in several
+2:31
+supplementary cement issues materials
+2:33
+from industrial wastes were investigated
+2:35
+to maximize the economic and
+2:37
+environmental benefits while improving
+2:40
+the essential properties of this orange
+2:42
+our team used machine learning to
+2:44
+analyze the data gained from intensive
+2:46
+research and to optimize their use we
+2:48
+decided to incorporate a hybrid of rice
+2:51
+house Ash and gold fly ash because of
+2:53
+their broad availability and Superior
+2:55
+performance in concrete cement is a
+2:57
+costly material so personal replacement
+2:59
+with these alternative materials also
+3:02
+reduces the cost of concrete
+3:03
+Additionally the partial replacement
+3:05
+with recycled concrete Aggregates
+3:07
+further cuts at the cost while adding to
+3:09
+the environmental benefits and improving
+3:11
+hydraulic property granular skeleton and
+3:13
+cement-based optimization is required to
+3:15
+determine the volumes of diabetes and
+3:18
+Summit paste with input porosity Optimum
+3:20
+fine aggregate content also helps in
+3:22
+balancing the strength and permeability
+3:24
+finally the mixed proportioning method
+3:26
+arrives at a list of potential design
+3:28
+mixes several tests facilitate the
+3:31
+experimental program in order to verify
+3:33
+the Design Concepts our team also
+3:35
+investigated the environmental impacts
+3:38
+of sponge using a concrete life cycle
+3:39
+assessment calculator the result shows
+3:42
+that the integration of CFA RCA and RHA
+3:46
+into sponge significantly reduced its
+3:48
+environmental impacts on the 11
+3:50
+parameters used for the LCA valves
+3:53
+equatorial to gate analysis sponge is
+3:55
+also economically feasible as the price
+3:57
+has a significant difference as compared
+3:59
+to Conventional conflict and 9.8 percent
+4:02
+lesser price than conventional purpose
+4:04
+complete through the pursuit of
+4:06
+engineering knowledge and experimental
+4:07
+methods Smosh becomes possible a
+4:10
+replication model with a road
+4:12
+cross-action model and sponge design mix
+4:14
+shall also be proposed for a roll of
+4:16
+application we aim to support this
+4:18
+project by partnering with local
+4:20
+government units and other institutions
+4:22
+such as Leo esteem and ACI Philippines
+4:25
+fundings are targeted to this
+4:27
+partnership and sending proposals to
+4:29
+various funding opportunities acid money
+4:31
+of 1 300 is needed for field dusting of
+4:35
+sponge Innovation we recommend
+4:37
+incorporating biocar for carbon
+4:39
+sequestration potential adding five
+4:41
+versus another approach to achieve a
+4:43
+structural grade of previous concrete
+4:44
+and using alternative sustainable
+4:46
+materials available in different
+4:48
+countries for future studies to
+4:50
+accelerate the implementation of sponge
+4:52
+around the world for sustainable
+4:54
+resilient roads and highways here
+
+
+
+Transcript for WONDERPETS - WINNER of the 2022 WED Hack
+
+
+0:04
+you've undoubtedly heard the term water
+0:06
+crisis perhaps you have already heard
+0:08
+that 2.4 billion people do not have
+0:10
+access to basic sanitation facilities
+0:13
+first 80 percent of the wastewater
+0:15
+generated by human activities are
+0:17
+disposed into the bodies of water with
+0:19
+no pollution remediation
+0:22
+toxic pollutants from numerous sectors
+0:24
+have made their way into many water
+0:26
+sources today
+0:27
+we need portable water to drink and to
+0:30
+bait as well as to irrigate our lands
+0:31
+and feed our pets and livestock
+0:34
+sdg 6 is more important than ever for
+0:36
+humanity's survival as water is alive
+0:39
+and it affects us in a variety of ways
+0:42
+despite the fact that water treatment
+0:43
+technologies are used in industries
+0:46
+several of these have drawbacks among
+0:48
+treatment methods adsorption is found to
+0:50
+be most effective due to its low cost
+0:52
+simple and efficient design
+0:55
+however conventional adsorbents have
+0:57
+drawbacks that restrict their
+0:58
+applications on a large scale
+1:00
+to adjust the limits of conventional
+1:02
+absorbance we propose the use of metal
+1:04
+organic frameworks or mops a novel
+1:07
+material explored for its potential in
+1:09
+various environmental applications
+1:11
+we aim to use moths for the removal of a
+1:13
+range of pollutants from wastewater to
+1:16
+contribute to sdg6 mops has what we call
+1:19
+a breathing ability which allows them to
+1:21
+host guest molecules and push them out
+1:23
+once external stimuli is applied this
+1:26
+ability allows it to remove a large
+1:28
+amount of pollutants and to be
+1:29
+regenerated and reused making it
+1:31
+sustainable for water treatment with its
+1:34
+novelty its raw materials and production
+1:36
+process still need imperfect how do we
+1:39
+aim to address this
+1:40
+by recycling plastic bottles
+1:43
+with our knowledge in chemical
+1:44
+engineering we know that a certain
+1:46
+component in plastic bottles can help us
+1:48
+in producing mocks in a less expensive
+1:50
+and more environmental friendly way over
+1:53
+3.800 million tons of plastic bottles
+1:56
+are produced yearly and only seven
+1:58
+percent of this are recycled leaving the
+2:00
+rest to pollute our waters and lands and
+2:02
+affect wildlife repurposing them and
+2:05
+giving them second life as protectors of
+2:06
+our environment will contribute to
+2:08
+responsible consumption and production
+2:11
+which is also another sdg we aim to
+2:13
+address as a chemical engineering
+2:15
+student we developed a nodal approach in
+2:17
+the production of moth adsorbents in a
+2:20
+way that reduces costs eliminates toxic
+2:22
+regions and minimizes energy
+2:24
+requirements
+2:25
+mobs are composed of metal ions and
+2:27
+organic linkers to reduce cost we use
+2:30
+fat bottles as the source of our organic
+2:32
+linker called tta we applied green
+2:35
+method in extracting tpa from fat
+2:37
+bottles through microwave
+2:38
+depolymerization tpa is non-dissolvable
+2:41
+in water requiring the process to use
+2:43
+toxic organic solvents and extreme
+2:45
+conditions to form mops applying our
+2:48
+engineering and chemistry knowledge we
+2:50
+converted tpa so that it readily
+2:52
+dissolves in water this method enabled
+2:54
+us to prepare mock using just water as
+2:56
+solvent and ambient conditions as
+2:58
+opposed to conventional metals we
+3:01
+successfully produce moth in this noble
+3:03
+approach and use it in removing dyes
+3:04
+from water to absorption aside from dyes
+3:07
+moths can also be used for the removal
+3:09
+of pollutants like heavy metals and
+3:11
+organic contaminants using our knowledge
+3:13
+and separation principles from chemical
+3:15
+engineering we further improved the
+3:17
+absorption process using modeling
+3:19
+analysis and optimization with the help
+3:21
+of tools like design expert and origin
+3:24
+the mods you produce cost a lot less
+3:26
+than commercially available ones one
+3:28
+gram cost us only about four dollars to
+3:30
+make compared to 67 available mock in
+3:33
+the market the total estimated expenses
+3:35
+in this project is only 500
+3:38
+we aim to get funding from partnerships
+3:40
+with different universities and
+3:41
+government institutions
+3:44
+we would want to further collaborate
+3:45
+with industries in the nations in order
+3:47
+to pilot test our technology in an
+3:49
+operational wastewater treatment plant
+3:51
+state institutions may also be invoked
+3:53
+to safeguard the program's long-term
+3:55
+viability by providing support for
+3:57
+policy formulations for water pollution
+3:59
+prevention
+4:00
+there's a lot to learn about falls aside
+4:02
+from pet bottles other pet containing
+4:04
+waste may be investigated and metal
+4:06
+scraps may be utilized as a metal
+4:08
+precursor for mop synthesis which will
+4:10
+be a part of a greater research that
+4:12
+will be completed in a year or two
+4:15
+we researchers want to work with several
+4:17
+organizations to investigate mob as a 3d
+4:19
+material 3d printing offers another
+4:22
+level to mop manufacturing in terms of
+4:24
+customizability speed and reusability in
+4:27
+large-scale treatment
+4:29
+our team wonder fans hailing from
+4:31
+different cities of batangas province
+4:33
+philippines came and worked together in
+4:35
+crafting our solution and water
+4:36
+remediation using mops derived from ped
+4:39
+bottles
+4:40
+targeting both sdg 6 and 12 our solution
+4:43
+aims to merge waste valorization and
+4:45
+value adding with a challenge of clean
+4:47
+water and sanitation
+4:49
+through waste recycling we aim to build
+4:52
+back wiser and through water remediation
+4:54
+using mops we aim to engineer a better
+4:57
+future
+
+Transcript for WED hackathon 2024 3rd prize winner - green space adventurine
+
+Transcript
+
+
+0:00
+fossil fuel dominates all energy sources
+0:03
+as it is responsible for supplying 80%
+0:06
+of the world's total energy requirement
+0:08
+but the problem is it is the main cause
+0:11
+of carbon emissions that drastically
+0:14
+increase global
+0:15
+temperatures
+0:17
+Transportation keeping the lights on
+0:20
+crop failures are also some of the human
+0:24
+activities that contribute to carbon
+0:27
+Footprints who are affected refug and
+0:30
+internally displaced people they
+0:32
+experience extreme heat they only live
+0:35
+in temporary settlements in which
+0:37
+materials cannot cope with the extreme
+0:39
+temperature during hot days the
+0:42
+situation may get worse when heat waves
+0:45
+occur how might we protect them from
+0:47
+extreme heat while reducing our carbon
+0:52
+Footprints our theme presents Green
+0:55
+Space sustainable phy ofense assembled
+0:58
+using cured sour for collected urine for
+1:01
+urban environmental balance Green Space
+1:05
+is a proposed design for shelters that
+1:07
+employs bof fencing through the
+1:10
+application of
+1:11
+microalga it mainly addresses
+1:14
+sdg13 climate action and also it
+1:17
+contributes to sdg3 good health and
+1:21
+well-being sdg6 clean water and
+1:25
+sanitation
+1:26
+sdg7 affordable and clean energy sdg 9
+1:31
+industry Innovation and infrastructure
+1:34
+and lastly
+1:36
+sdg11 sustainable cities and communities
+1:40
+the highlight of green space is the
+1:41
+cultivation of microalga int treed
+1:47
+human on average an individual reates
+1:51
+about 1 to 1.5 m per day which is about
+1:54
+7 to 10.5 L per week and about 1,50
+1:58
+1,575 5 L per week in a community
+2:01
+comprising of at least 150 people urine
+2:04
+has a high concentration of nitrogen
+2:07
+phosphorus and potassium that microalgae
+2:09
+can capture and use for its growth to do
+2:12
+this an improvised theing toilet has to
+2:15
+be set up incs in this way pure urine
+2:18
+can be
+2:19
+obtained to kill pathogens batch samples
+2:23
+of urine will be sterilized in an
+2:25
+autoclave thereafter the reduction of
+2:28
+color and odor of the urine
+2:30
+will be facilitated using a three- layer
+2:32
+filter consisting of vver grass carbon
+2:36
+filter and sunand filter treated
+2:38
+nutrient Rich urine is now ready for
+2:40
+optimization optimal biomas growth of
+2:43
+microalga will be examined through
+2:45
+delution of 1 is to 25 to 1 is to
+2:50
+300 peer reviewed study indicates that
+2:53
+theed samples can provide an even more
+2:56
+ideal environment for micro Al the inoc
+2:59
+of the micro Cil G can now be mixed in a
+3:03
+Proto Reactor with urine as
+3:06
+media the advantage of this Innovation
+3:09
+is that microalgae can exploit the
+3:12
+concentrated nitrogen phosphorus and
+3:15
+potassium in urine for their grow thus
+3:18
+producing biomass that can be used as
+3:21
+biofuel creating an opportunity for a
+3:24
+less harmful source of
+3:27
+energy and for Waste Water treatment
+3:30
+facilities the use of microalga can be
+3:33
+helpful in the further treatment of
+3:35
+yellow waste water we will utilize the B
+3:39
+fencing of microalgae to defend people
+3:42
+from the scorching heat of the sun
+3:44
+microalgae will also capture carbon
+3:47
+dioxide through the ducts in the
+3:49
+fabricated container thus reducing toxic
+3:52
+emissions in the
+3:53
+surroundings the Green Space will also
+3:55
+be installed with a solar panel in order
+3:58
+to light up during the nighttime and
+4:00
+function as a photobioreactor while
+4:02
+providing
+4:04
+illumination after some time the urine
+4:07
+and microalga mixture can be easily
+4:09
+replenished through pre-designed Inlet
+4:12
+and
+4:14
+Outlet to sum up Green Space will serve
+4:18
+as a biomass producer greine tertiary
+4:21
+treatment bof fence polluted air
+4:25
+purifier light source and ultimately a
+4:28
+cool space where everyone can
+4:31
+relax we are planning to cooperate and
+4:34
+seek funding from the Department of
+4:36
+Science and Technology to improve our
+4:38
+urine treatment capacity and upscale our
+4:42
+microalga
+4:44
+cultivation with green space experience
+4:48
+a harmonious blend of Nature and urban
+4:51
+living where everyone can drive in a
+4:54
+cool comforting and sustainable
+4:58
+environment
+
+
+
