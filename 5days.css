@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+   background: #365949;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+}
+
+#weather i {
+    margin: 20px 0;
+    color: #f39c12;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.forecast-day {
+border: 1px solid #ddd;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+background: #f9f9f9;
+text-align: center;
+box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+.forecast-day h4 {
+margin-bottom: 5px;
+color: #007bff;
+
+}
+
+.footer{
+    color: green;
+}
+.foot button{
+    
+    padding: 15px 25px;
+    color: #000;
+    border-radius: 6px;
+    background-color: #fff;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title></title>
+
+         <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css">
+    <script src=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> CropShield
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="graoh.html" class="nav__link">Graph</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="5days.html" class="nav__link">5Days Weather Forecast</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Pests</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faq" class="nav__link">FAQS</a>
+
+                        </li>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/hand2.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                             Farm Wisely, Prosper Greatly, Sustain Naturally.
+                        </h1>
+                        <p class="home__description">
+                            Create incredible plant design for your offices or apastaments. 
+                            Add fresness to your new ideas.
+                        </p>
+                       <!-- <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>-->
+
+                   <!-- <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>-->
+
+            <!--==================== ABOUT ====================-->
+           <!--<section class="about section container" id="about">
+                <div class="about__container grid">
+               <img src="assets/img/wee.jpg" alt="" class="about__img">
+
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                          Weather forecast application using the open weather map.
+                        </h2>
+
+                        <p class="about__description">
+                            We have over 4000+ unbiased reviews and our customers 
+                            trust our plant process and delivery service every time
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always deliver on time.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We give you guides to protect and care for your plants.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always come over for a check-up after sale.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% money back guaranteed.
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>-->
+
+            <!--==================== STEPS ====================-->
+         <!--   <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> plants off right
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <p class="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>-->
+
+            <center> <div class="container" id="weather">
+        <h1>Live Weather Forecast</h1>
+        <div id="weather">
+            <h3>Loading weather data...</h3>
+            <div id="weather-details">
+                <!-- Icons and additional details will populate here -->
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+       const apiKey = '9c5b06314e5f087305407c70127ab986';
+const city = 'Yangon';
+const weatherUrl = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+async function fetchWeather() {
+    try {
+        const response = await fetch(weatherUrl);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log('Weather Data:', data);
+
+        const iconClass = getWeatherIcon(data.weather[0].icon);
+        document.getElementById('weather').innerHTML = `
+            <h3>Weather in ${data.name}, ${data.sys.country}</h3>
+            <i class="wi ${iconClass}" style="font-size: 64px;"></i>
+            <p>Temperature: ${data.main.temp}°C</p>
+            <p>Condition: ${data.weather[0].description}</p>
+            <p>Humidity: ${data.main.humidity}%</p>
+            <p>Latitude: ${data.coord.lat}, Longitude: ${data.coord.lon}</p>
+            <p>Wind Speed: ${data.wind.speed} m/s</p>
+            <p>Pressure: ${data.main.pressure} hPa</p>
+        `;
+    } catch (error) {
+        console.error('Error fetching weather data:', error);
+        document.getElementById('weather').innerHTML = `<p>Error fetching weather data: ${error.message}</p>`;
+    }
+}
+
+// Function to map OpenWeatherMap icons to Weather Icons classes
+function getWeatherIcon(iconCode) {
+    const iconMap = {
+        "01d": "wi-day-sunny",
+        "01n": "wi-night-clear",
+        "02d": "wi-day-cloudy",
+        "02n": "wi-night-cloudy",
+        "03d": "wi-cloud",
+        "03n": "wi-cloud",
+        "04d": "wi-cloudy",
+        "04n": "wi-cloudy",
+        "09d": "wi-showers",
+        "09n": "wi-showers",
+        "10d": "wi-day-rain",
+        "10n": "wi-night-rain",
+        "11d": "wi-thunderstorm",
+        "11n": "wi-thunderstorm",
+        "13d": "wi-snow",
+        "13n": "wi-snow",
+        "50d": "wi-fog",
+        "50n": "wi-fog"
+    };
+    return iconMap[iconCode] || "wi-na";
+}
+
+fetchWeather();
+
+    </script>
+</center>
+<br>
+
+                   <center> <div class="footer__subscribe">
+                  
+
+                        <a href="5days.html"><button class="button button--flex footer__button">
+                            5 days weather forecast
+                         
+                        </button></a>
+                    </div>
+                </center>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h1 class="section__title-center">
+                    Common Insect Pests
+                </h1>
+
+              <!-- <p class="product__description">
+                    Here are some selected plants from our showroom, all are in excellent 
+                    shape and has a long life span. Buy and enjoy best quality.
+                </p>-->
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="pest.html"><img src="assets/img/Fall-armyworm.jpg" alt="" class="product__img"></a>
+
+                      <center> <h3 class="product__title">Fall Armyworm</h3></center>
+                        <!--<span class="product__price">$19.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>-->
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/grasshopper.jpg" alt="" class="product__img">
+
+                       <center> <h3 class="product__title">Grasshopper</h3></center>
+                       <!-- <span class="product__price">$11.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>--->
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/snail.png" alt="" class="product__img">
+
+                        <center> <h3 class="product__title">Snail</h3></center>
+                        <!--<span class="product__price">$7.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>-->
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/cab2.jpg" alt="" class="product__img">
+
+                       <center><h3 class="product__title">Cabbage shoot weevil</h3></center> 
+                        <!--<span class="product__price">$5.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>-->
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/lo.jpg" alt="" class="product__img">
+
+                       <center><h3 class="product__title">Lobesia botrana</h3></center>
+                        <!--<span class="product__price">$10.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>-->
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/ja.jpg" alt="" class="product__img">
+
+                        <center><h3 class="product__title">Japanese beetles </h3></center>
+                        <!--  <span class="product__price">$8.99</span>
+
+                       <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>-->
+                    </article>
+            
+            </section>
+        
+
+                   <center> <div class="footer__subscribe">
+                  
+
+                        <a href="morepest.html"><button class="button button--flex footer__button">
+                           More
+                         
+                        </button></a>
+                    </div>
+                </center>
+                <br>
+
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faq">
+                <h2 class="section__title-center questions__title container">
+                    Some common questions <br> were often asked
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                   What does NPK stand for?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                   NPK stands for Nitrogen, Phosphorous, and Potassium.
+NPK၏ အရှည်ကောက်မှာ နိုက်ထရိုဂျင်, ဖော့စဖရပ် နှင့်ပိုတက်ဆီရမ်တို့ ဖြစ်ပါသည်။
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                  What is the meaning of NPK?
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                   NPK is the fertilizer contains three essential nutrients needed for plant growth and overall plant health.<br>
+NPKဆိုသည်မှာ မြေသြဇာဖြစ်၍ အပင်များကြီးထွားရန်နှင့် အပင်တစ်ပင်လုံးကျန်းမာရန်အတွက် မဖြစ်မနေလိုအပ်သော အာဟာရဓာတ် ၃မျိုးပါဝင်သည်။
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                 
+Why Nitrogen is needed for plants?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                              Nitrogen is needed for plant color and growth.<br>
+နိုက်ထရိုဂျင်ကို အပင်၏အရောင်နှင့် အပင်ကြီးထွားရန်အတွက် လိုအပ်ပါသည်။
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                   Why Phosphorous is needed for plants?
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                  Phosphorous is needed for fruits and flowers.<br>
+‌ဖော့စဖရပ်ကို အသီးအနှံများနှင့် ပန်းများအတွက် လိုအပ်ပါသည်။
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Why Potassium is needed for plants?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                   Potassium is needed for strong roots.<br>
+ပိုတက်ဆီယမ်ကို အပင်၏ အမြစ်သန်မာစေရန်အတွက် လိုအပ်ပါသည်။
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                 What is the best NPK ratio for plants?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                 The best NPK ratio for plants is 4:2:1.<br>
+အပင်များအတွက် အကောင်းဆုံး NPK အချိုးမှာ 4:2:1 ဖြစ်ပါသည်။
+                                </p>
+                            </div>
+                        </div>
+
+
+                          <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                               What is the best time to apply NPK fertilizer?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                 Not later than two weeks or 14days from the time of sowing, when soil is moist.<br>
+မြေဆီလွှာသည် စိုစွတ်နေလျက် မျိုးစေ့ချပြီး ရက်သတ္တပတ် ၂ပတ် သို့မဟုတ် ၁၄ရက်ထက် နောက်မကျသော အချိန်သည် NPK မြေသြဇာထည့်ရန် အကောင်းဆုံးအချိန်ဖြစ်ပါသည်။ 
+                            </div>
+                        </div>
+
+
+                        <!--  <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                           Which fertilizer is best for growth?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                              A balance fertilizer containing equal parts nitrogen, phosphorous and potassium (NPK).<br>
+အပင်များကြီးထွားရန်အတွက် အကောင်းဆုံးမြေသြဇာမှာ နိုက်ထရိုဂျင်၊ ဖော့စဖရပ်နှင့် ပိုတက်ဆီယမ် ဤ၃မျိုး မျှတစွာပါဝင်နေသော မြေသြဇာဖြစ်ပါသည်။
+                        </div>
+
+                    </div>-->
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+          <!--  <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +999 888 777
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    user@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>-->
+
+        <!--==================== FOOTER ====================-->
+    <!--   <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Plantex
+                    </a>file:///C:/Users/Phyu Zin Htet/Downloads/5dayWeatherForecast.html
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Send
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">1234 - Peru</li>
+                        <li class="footer__information">La Libertad - 43210</li>
+                        <li class="footer__information">123-456-789</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+999 888 777</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+           <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all credit cards
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>-->
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

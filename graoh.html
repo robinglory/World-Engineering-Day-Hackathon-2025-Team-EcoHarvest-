@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style type="text/css">
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        h1{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 13px;        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        p{
+            font-size: 10px;
+        }
+        .footer__subscribe button {
+            padding: 15px 25px;
+            color: #fff;
+            border-radius: 6px;
+            background-color: #3e6553;
+            border-style: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+}
+    </style>
+</head>
+<body>
+  
+    <center><h1>Smart Farm Data Graph</h1></center>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Moisture Sensor Data</h3>
+                <canvas id="moistureChart"></canvas>
+            </div>
+            <div class="col-md-6">
+                <h3>Temperature Sensor Data</h3>
+                <canvas id="temperatureChart"></canvas>
+            </div>
+            <div class="col-md-6">
+                <h3>PEST Deterrent Graph for 26.11.24</h3>
+                <canvas id="pestChart"></canvas>
+            </div>
+            <div class="col-md-6">
+                <h3>Rectrable Roof On and Off State for 26.11.24</h3>
+                <canvas id="servoChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Moisture Sensor Graph
+        const moistureData = {
+            labels: ['10.11.24', '11.11.24', '12.11.24', '13.11.24', '14.11.24', '15.11.24', '16.11.24', '17.11.24', '18.11.24', '19.11.24', '20.11.24', '21.11.24', '22.11.24', '23.11.24', '24.11.24', '25.11.24'],
+            datasets: [{
+                label: 'Moisture Level',
+                data: [380, 250, 320, 200, 350, 370, 310, 290, 270, 300, 280, 350, 330, 310, 300, 320],
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                fill: true,
+                tension: 0.1
+            }]
+        };
+
+        const moistureConfig = {
+            type: 'line',
+            data: moistureData,
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 400,
+                        title: {
+                            display: true,
+                            text: 'Moisture Level'
+                        }
+                    }
+                }
+            }
+        };
+
+        // Temperature Sensor Graph
+        const temperatureData = {
+            labels: ['10.11.24', '11.11.24', '12.11.24', '13.11.24', '14.11.24', '15.11.24', '16.11.24', '17.11.24', '18.11.24', '19.11.24', '20.11.24', '21.11.24', '22.11.24', '23.11.24', '24.11.24', '25.11.24'],
+            datasets: [{
+                label: 'Temperature (°C)',
+                data: [35, 32, 28, 29, 34, 30, 31, 33, 35, 34, 30, 32, 33, 31, 28, 32],
+                borderColor: 'rgba(255, 99, 132, 1)',
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                fill: true,
+                tension: 0.1
+            }]
+        };
+
+        const temperatureConfig = {
+            type: 'line',
+            data: temperatureData,
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Temperature (°C)'
+                        }
+                    }
+                }
+            }
+        };
+
+        // PEST Deterrent Graph
+        const pestData = {
+            labels: ['7 PM', '8 PM', '9 PM', '10 PM', '11 PM', '12 AM', '1 AM', '2 AM', '3 AM', '4 AM', '5 AM'],
+            datasets: [{
+                label: 'PEST Activity',
+                data: [0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0], // Converted 'Off' to 0 and 'Active' to 1
+                borderColor: 'rgba(255, 159, 64, 1)',
+                backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                fill: true,
+                tension: 0.1
+            }]
+        };
+
+        const pestConfig = {
+            type: 'line',
+            data: pestData,
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        ticks: {
+                            callback: function(value) {
+                                return value === 1 ? 'Active' : 'Off';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Pest Deterrent Status'
+                        },
+                        min: 0,
+                        max: 1
+                    }
+                }
+            }
+        };
+
+        // Servo Control Graph
+        const servoData = {
+            labels: ['5 AM', '6 AM', '7 AM', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM', '6 PM', '7 PM'],
+            datasets: [{
+                label: 'Rectrable Roof On and Off State',
+                data: [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0], // Converted 'Off' to 0 and 'On' to 1
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                fill: true,
+                tension: 0.1
+            }]
+        };
+
+        const servoConfig = {
+            type: 'line',
+            data: servoData,
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        ticks: {
+                            callback: function(value) {
+                                return value === 1 ? 'On' : 'Off';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Servo Status'
+                        },
+                        min: 0,
+                        max: 1
+                    }
+                }
+            }
+        };
+
+        // Create the charts
+        window.onload = function() {
+            new Chart(document.getElementById('moistureChart'), moistureConfig);
+            new Chart(document.getElementById('temperatureChart'), temperatureConfig);
+            new Chart(document.getElementById('pestChart'), pestConfig);
+            new Chart(document.getElementById('servoChart'), servoConfig);
+        };
+    </script>
+
+     <center> <div class="footer__subscribe">
+                  
+
+                        <a href="index.html"><button class="button button--flex footer__button">
+                           Back
+                         
+                        </button></a>
+                    </div>
+                </center>
+</body>
+</html>

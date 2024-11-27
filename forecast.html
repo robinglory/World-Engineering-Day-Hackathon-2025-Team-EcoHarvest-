@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css">
+    <script src=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Live Weather Forecast</h1>
+        <div id="weather">
+            <h3>Loading weather data...</h3>
+            <div id="weather-details">
+                <!-- Icons and additional details will populate here -->
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+       const apiKey = '9c5b06314e5f087305407c70127ab986';
+const city = 'Yangon';
+const weatherUrl = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+async function fetchWeather() {
+    try {
+        const response = await fetch(weatherUrl);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log('Weather Data:', data);
+
+        const iconClass = getWeatherIcon(data.weather[0].icon);
+        document.getElementById('weather').innerHTML = `
+            <h3>Weather in ${data.name}, ${data.sys.country}</h3>
+            <i class="wi ${iconClass}" style="font-size: 64px;"></i>
+            <p>Temperature: ${data.main.temp}°C</p>
+            <p>Condition: ${data.weather[0].description}</p>
+            <p>Humidity: ${data.main.humidity}%</p>
+            <p>Latitude: ${data.coord.lat}, Longitude: ${data.coord.lon}</p>
+            <p>Wind Speed: ${data.wind.speed} m/s</p>
+            <p>Pressure: ${data.main.pressure} hPa</p>
+        `;
+    } catch (error) {
+        console.error('Error fetching weather data:', error);
+        document.getElementById('weather').innerHTML = `<p>Error fetching weather data: ${error.message}</p>`;
+    }
+}
+
+// Function to map OpenWeatherMap icons to Weather Icons classes
+function getWeatherIcon(iconCode) {
+    const iconMap = {
+        "01d": "wi-day-sunny",
+        "01n": "wi-night-clear",
+        "02d": "wi-day-cloudy",
+        "02n": "wi-night-cloudy",
+        "03d": "wi-cloud",
+        "03n": "wi-cloud",
+        "04d": "wi-cloudy",
+        "04n": "wi-cloudy",
+        "09d": "wi-showers",
+        "09n": "wi-showers",
+        "10d": "wi-day-rain",
+        "10n": "wi-night-rain",
+        "11d": "wi-thunderstorm",
+        "11n": "wi-thunderstorm",
+        "13d": "wi-snow",
+        "13n": "wi-snow",
+        "50d": "wi-fog",
+        "50n": "wi-fog"
+    };
+    return iconMap[iconCode] || "wi-na";
+}
+
+fetchWeather();
+
+    </script>
+</body>
+</html>
